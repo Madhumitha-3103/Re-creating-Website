@@ -1,0 +1,262 @@
+.main-container{
+    margin: auto;
+    background-color: rgb(241, 238, 238);
+    width: 100%;
+
+}
+.container-1{
+    height:80px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-bottom: 3px solid rgb(195, 188, 188);
+    justify-content: space-around;
+    margin-bottom: auto;
+    
+}
+.link{
+    color: black;
+}
+.image1{
+    margin-top: 5px;
+    width: 100px;
+    height: 60px;
+}
+.user-2{
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.container-2{
+    position: relative;
+}
+.type-1{
+    width: 700px;
+    margin-top: 15px;
+    border-radius: 7px;
+    border: 1px solid rgb(223, 230, 227);
+    height: 40px;
+    padding-inline-start: 40px;
+    background-color: rgb(223, 230, 227);
+    font-size: large;
+}
+.user-1{
+margin: 15px;
+margin-left: 40px;
+margin-top: 20px;
+}
+
+.image2{
+    width:30px;
+    height: 30px;
+}
+.button-1{
+    border-radius: 0px;
+}
+.image3{
+width:20px;
+height: 20px;
+margin-top: 5px;
+margin-left: 5px;
+}
+.image4{
+    width:30px;
+    height: 30px;
+}
+.link-1{
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.button1{
+    background-color: white;
+    border: 1px solid white;
+}
+.container-3{
+    height: 120px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.image5,.image9,.image10{
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+.para1,.para2,.para3{
+    font-size: small;
+    text-align: center;
+}
+
+.link2{
+    color:black;
+    text-decoration: none;
+}
+.container-4{
+    height: 270px;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+
+}
+.image6{
+    width:180px;
+    height: 180px;
+    margin: 10px;
+    margin-left: 30px;
+
+}
+
+.link3{
+display: grid;
+text-decoration: none;
+text-align: center;
+color: black;
+}
+.sub-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: auto;
+}
+.container-5{
+    height: 270px;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    border: 3px solid rgb(212, 207, 207);
+
+}
+.container-7{
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    background-color:white ;
+    margin-top: 10px;
+    display: flex;
+}
+a:hover{
+    font-size: large;
+    border: 3px solid rgb(220, 214, 214);
+    
+}
+.container-8{
+    height:200px;
+    display: flex;
+    flex: 4;
+    margin-left: 4px;
+}
+.container-9{
+    margin: auto;
+    margin-top: 10px;
+}
+.link4{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:700px) {
+
+    .container-9{
+        display: none;  
+    }
+}
+@media only screen and (max-width:500px){
+    .container-1{
+        display: block;
+    }
+}
+@media only screen and (max-width:500px){
+    .container-2,.button1,.image4,.link-1{
+        display: none;
+    }
+}
+@media only screen and (max-width:500px){
+    .container-1{
+        display: flex;
+    }
+}
+@media only screen and (max-width:900px){
+.type-1{
+    width:300px;
+    margin-left: 5px;
+}
+.button1{
+    display: none;
+}
+.container-3,.slide-1{
+    width: 100%;
+}
+}
+
+
+@media only screen and (max-width:768px) {
+    .para3,.image10{
+        display: none;
+}
+.image9{
+    margin-top: 10px;
+}
+.para1,.para2,.image5,.image9{
+    margin-left: 25px;
+}
+
+}
+@media only screen and (max-width:500px){
+    .para3,.para2,.image9,.image10{
+        display: none;
+    }
+    .para1,.image5{
+        display: flex;
+        margin-left: 20px;
+   }  
+}
+@media only screen and (max-width:700px){
+  .sub-container, .container-4{
+        display: block;
+        align-content: flex-start;
+        
+    }
+    .container-5{
+        display: none;
+    }
+    .container-4{
+        display: block;
+        height:600px;
+    }
+    .container-7{
+        display: block;
+        height: 700px;
+    }
+    .link3{
+        display: flex;
+        border-bottom: 1px solid grey;
+    
+    }
+    .image6{
+        width:80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .container-10{
+        align-content: center;
+    }
+   
+}
+@media only screen and (max-width:700px){
+    .container-8{
+        display: none;
+    }
+    
+}
+
+
+    
+
+
